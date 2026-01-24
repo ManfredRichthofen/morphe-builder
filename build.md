@@ -1,5 +1,4 @@
 Music: 8.37.56  
-Youtube: 20.37.48  
 
 Install [MicroG-RE](https://github.com/MorpheApp/MicroG-RE/releases/latest) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root Morphe YouTube and YT Music from Play Store  
@@ -17,4 +16,5 @@ Patches: MorpheApp/patches-1.7.0.mpp 
 Patches: MorpheApp/patches-1.7.0.mpp  
 Patches: MorpheApp/patches-1.7.0.mpp  
 Patches: MorpheApp/patches-1.7.0.mpp  
-Patches: MorpheApp/patches-1.7.0.mpp                      
+Patches: MorpheApp/patches-1.7.0.mpp  
+Patches: MorpheApp/patches-1.7.0.mpp                        

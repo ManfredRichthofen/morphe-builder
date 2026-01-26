@@ -8,4 +8,5 @@ Patches: MorpheApp/patches-1.8.0.mpp 
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.8.0)  
 
 Skipped:  
-Patches: MorpheApp/patches-1.8.0.mpp    
+Patches: MorpheApp/patches-1.8.0.mpp  
+Patches: MorpheApp/patches-1.8.0.mpp      

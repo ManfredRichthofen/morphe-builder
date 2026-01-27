@@ -1,3 +1,4 @@
+Music: 8.40.54  
 Youtube: 20.40.45  
 
 Install [MicroG-RE](https://github.com/MorpheApp/MicroG-RE/releases/latest) for non-root YouTube and YT Music APKs  
@@ -9,4 +10,5 @@ Patches: MorpheApp/patches-1.8.0.mpp 
 Skipped:  
 Patches: MorpheApp/patches-1.8.0.mpp  
 Patches: MorpheApp/patches-1.8.0.mpp  
-Patches: MorpheApp/patches-1.8.0.mpp        
+Patches: MorpheApp/patches-1.8.0.mpp  
+Patches: MorpheApp/patches-1.8.0.mpp          

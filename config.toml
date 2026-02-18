@@ -17,7 +17,7 @@ cli-source = "MorpheApp/morphe-cli"
 module-prop-name = "YouTube-Morphe-module"
 excluded-patches = "'Custom branding' 'Change header' 'Custom player overlay opacity'"
 riplib = true
-build-mode = "both"
+build-mode = "apk"
 
 [Music]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -28,4 +28,4 @@ arch = "arm64-v8a"
 module-prop-name = "Music-Morphe-module"
 excluded-patches = "'Custom branding'"
 riplib = true
-build-mode = "both"
+build-mode = "apk"

@@ -181,11 +181,11 @@ config_update() {
 			if [ "$PATCHES_VER" = "dev" ]; then
 			    local all_releases
 			    all_releases=$(gh_req "$rv_rel" - | jq 'sort_by(.created_at) | reverse')
-			    last_patches=$(jq -e -r '.[0]' <<<"$all_releases")
+			    last_patches=$(jq -e -r '.[0]' <<<"$all_releases") || continue
 			elif [ "$PATCHES_VER" = "latest" ]; then
-				last_patches=$(gh_req "$rv_rel/latest" -)
+				last_patches=$(gh_req "$rv_rel/latest" -) || continue
 			else
-				last_patches=$(gh_req "$rv_rel/tags/${ver}" -)
+				last_patches=$(gh_req "$rv_rel/tags/${ver}" -) || continue
 			fi
 			if ! last_patches=$(jq -e -r '.assets[] | select(.name | (endswith("asc") or endswith("json")) | not) | .name' <<<"$last_patches"); then
 				abort "config_update error: '$last_patches'"

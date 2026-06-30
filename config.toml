@@ -3,10 +3,6 @@ parallel-jobs = 1
 patches-version = "latest"
 cli-version = "latest"
 
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/elohim-etz/morphe-builder/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
 
 # Morphe
 [YouTube]

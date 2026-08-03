@@ -1,6 +1,6 @@
 {
-  "version": "v20.51.39 (patches 1.34.0.mpp)",
-  "versionCode": 99,
-  "zipUrl": "https://github.com/ManfredRichthofen/morphe-builder/releases/download/99/youtube-morphe-module-v20.51.39-all.zip",
+  "version": "v21.04.223 (patches 1.38.0.mpp)",
+  "versionCode": 100,
+  "zipUrl": "https://github.com/ManfredRichthofen/morphe-builder/releases/download/100/youtube-morphe-module-v21.04.223-all.zip",
   "changelog": "https://raw.githubusercontent.com/ManfredRichthofen/morphe-builder/update/build.md"
 }

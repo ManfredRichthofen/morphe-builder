@@ -28,6 +28,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 included-patches = "'Network proxy'"
 
 [GooglePhotos]
+enabled = false
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 cli-source = "MorpheApp/morphe-cli"
